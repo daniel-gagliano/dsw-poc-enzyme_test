@@ -8,7 +8,7 @@ Este proyecto contiene pruebas unitarias para un componente de formulario simple
 
 1. Clonar el repositorio  
 ```bash
-git clone https://github.com/daniel-gagliano/enzyme_test
+git clone https://github.com/daniel-gagliano/dsw-poc-enzyme_test
 ```
 
 2. Instalar dependencias  
