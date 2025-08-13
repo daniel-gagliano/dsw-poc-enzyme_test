@@ -1,0 +1,38 @@
+{
+  "name": "enzyme_test",
+  "version": "1.0.0",  
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "babel-jest": "^30.0.5",
+    "cheerio": "^1.0.0-rc.10",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.8",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "react-test-renderer": "^16.14.0",
+    "util": "^0.12.5",
+    "vite": "^7.1.2",
+    "web-streams-polyfill": "^3.2.1"
+  }
+ 
+}

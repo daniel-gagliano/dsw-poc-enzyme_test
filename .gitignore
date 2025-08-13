@@ -1,0 +1,33 @@
+# Node modules (no subirlos al repo)
+node_modules/
+
+# Build / producción
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de sistema y editores
+.DS_Store
+.vscode/
+.idea/
+
+# Config de entorno
+.env
+
+# Archivos de cobertura de tests
+coverage/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Directorios de caché
+.cache/
+
+# Archivos de lock (se recomienda subir para control de versiones)
+package-lock.json
+yarn.lock
