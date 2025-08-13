@@ -1,4 +1,3 @@
-```markdown
 # Testing de Formulario React con Jest y Enzyme
 
 Este proyecto contiene pruebas unitarias para un componente de formulario simple hecho en React 16. Los tests verifican la correcta interacción con los inputs y la lógica del submit usando **Jest** y **Enzyme**. Además, incluye configuración para correr el proyecto con **Vite** y realizar pruebas con Jest sin conflictos.
@@ -9,7 +8,7 @@ Este proyecto contiene pruebas unitarias para un componente de formulario simple
 
 1. Clonar el repositorio  
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/daniel-gagliano/enzyme_test
 ```
 
 2. Instalar dependencias  
@@ -68,4 +67,3 @@ Esto correrá Jest, que ejecutará las pruebas definidas para el componente `For
 - Jest para testing  
 - Enzyme para renderizado y simulación de eventos en tests  
 - Babel para transformar JSX y ES6+  
-```
