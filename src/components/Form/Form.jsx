@@ -1,7 +1,6 @@
 import { useState } from "react";
 import React from 'react';
 
-
 export default function Form() {
   const [nombre, setNombre] = useState('');
   const [email, setEmail] = useState('');
@@ -10,8 +9,8 @@ export default function Form() {
   const [enviado, setEnviado] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (nombre.trim() && email.trim() && edad.trim() && mensaje.trim()) {
+    e.preventDefault(); // corta la recarga de página por defecto al enviar un form
+    if (nombre.trim() && email.trim() && edad.trim() && mensaje.trim()) { //Si estan todos los campos esta todo ok
       setEnviado(true);
     } else {
       setEnviado(false);

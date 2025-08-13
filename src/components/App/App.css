@@ -12,7 +12,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #e34e73);
+  filter: drop-shadow(0 0 2em #747bff);
 }
 
 .logo.react:hover {
@@ -26,8 +26,8 @@
   transition: filter 300ms;
 }
 
-.logo.enzyme:hover {
-  filter: drop-shadow(0 0 2em #e34e73);
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
 }
 
 @keyframes logo-spin {
