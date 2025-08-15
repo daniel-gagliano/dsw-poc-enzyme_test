@@ -28,6 +28,5 @@ coverage/
 # Directorios de caché
 .cache/
 
-# Archivos de lock (se recomienda subir para control de versiones)
-package-lock.json
-yarn.lock
+
+
