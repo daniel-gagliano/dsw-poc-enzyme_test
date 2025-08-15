@@ -3,6 +3,9 @@ module.exports = {
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
   },
-  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'], // ruta a tu setupTests.js
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
   moduleFileExtensions: ['js', 'jsx', 'json', 'node'],
+  transformIgnorePatterns: [
+    '/node_modules/(?!(cheerio)/)' // <- permite transformar cheerio
+  ],
 };
